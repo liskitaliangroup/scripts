@@ -4,6 +4,18 @@ git rebase upstream/master
 git push -u origin master
 cd ../scripts
 
+cd ../lisk-pool
+git fetch upstream 
+git rebase upstream/master 
+git push -u origin master
+cd ../scripts
+
+cd ../lisk-voters
+git fetch upstream 
+git rebase upstream/master 
+git push -u origin master
+cd ../scripts
+
 cd ../lisk-dump-detector 
 git fetch upstream 
 git rebase upstream/master 
@@ -72,6 +84,12 @@ git push -u origin master
 cd ../scripts
 
 cd ../wallisk 
+git fetch upstream 
+git rebase upstream/master 
+git push -u origin master
+cd ../scripts
+
+cd ../lisk_broadcast 
 git fetch upstream 
 git rebase upstream/master 
 git push -u origin master

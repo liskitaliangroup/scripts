@@ -1,4 +1,9 @@
 # dakk
+git clone git@github.com:liskitaliangroup/lisk-pool.git ../lisk-pool
+cd ../lisk-pool
+git remote add upstream git@github.com:dakk/lisk-pool.git
+cd ../scripts
+
 git clone git@github.com:liskitaliangroup/liskapi.git ../liskapi
 cd ../liskapi
 git remote add upstream git@github.com:dakk/liskapi.git
@@ -30,6 +35,11 @@ git remote add upstream git@github.com:dakk/lisk-italian-group.git
 cd ../scripts
 
 # andreafspeziale
+git clone git@github.com:liskitaliangroup/lisk-voters.git ../lisk-voters
+cd ../lisk-voters
+git remote add upstream git@github.com:andreafspeziale/lisk-voters.git
+cd ../scripts
+
 git clone git@github.com:liskitaliangroup/liskitbot.git ../liskitbot
 cd ../liskitbot
 git remote add upstream git@github.com:andreafspeziale/liskitbot.git
@@ -60,4 +70,9 @@ cd ../scripts
 git clone git@github.com:liskitaliangroup/wallisk.git ../wallisk
 cd ../wallisk
 git remote add upstream git@github.com:corsaro1/wallisk.git
+cd ../scripts
+
+git clone git@github.com:liskitaliangroup/lisk_broadcast.git ../lisk_broadcast
+cd ../lisk_broadcast
+git remote add upstream git@github.com:corsaro1/lisk_broadcast.git
 cd ../scripts
